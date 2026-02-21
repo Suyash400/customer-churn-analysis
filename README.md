@@ -68,12 +68,11 @@ The dataset contains structured information about bank customers including demog
 
 ### Development Tools
 - VS Code
+- Jupyter Notebook
 - Git & GitHub
 - Streamlit (for interactive demonstration)
 
 ---
-
-## 🔍 Project Details
 
 ### Data Cleaning & Preparation
 - Checked missing values and duplicates.
@@ -126,8 +125,8 @@ Model comparison helped understand how different algorithms interpret structured
 
 ---
 
-## 📈 Dashboard
-An interactive Streamlit dashboard was developed to demonstrate predictions dynamically.
+## 📈 Streamlit UI
+An interactive Streamlit UI was developed to demonstrate predictions dynamically.
 
 **Dashboard Features**
 - Customer input-based churn prediction.
@@ -135,7 +134,9 @@ An interactive Streamlit dashboard was developed to demonstrate predictions dyna
 - Real-time probability output.
 - Clean blue-and-white themed user interface.
 
-*(Screenshots can be added here later.)*
+
+![Streamlit Dashboard](images/streamlitUI.png)
+![Streamlit Dashboard](images/StreamlittUI.png)
 
 ---
 
@@ -152,6 +153,9 @@ Organizations can use predictive insights to:
 - Design personalized retention campaigns.
 - Reduce revenue loss caused by churn.
 
+![Notebook Results](images/Result.png)
+![Notebook Results](images/Results.png)
+
 ---
 
 ## 🚀 Future Work
@@ -160,16 +164,5 @@ Organizations can use predictive insights to:
 - Cloud deployment for public access.
 - Integration with real-time datasets.
 - Expanded analytical dashboards.
-
----
-
-## 👨‍💻 Author & Contact Info
-
-**Suyash Sharma**
-
-📧 Email: your_email@example.com  
-🔗 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN  
-💻 GitHub: https://github.com/YOUR_USERNAME  
-🌐 Portfolio: (Add when available)
 
 ---
