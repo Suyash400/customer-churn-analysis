@@ -52,7 +52,9 @@ st.sidebar.success("Customer Churn Analytics Project")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/Churn_Modelling.csv")
+    base_dir = os.path.dirname(__file__)        # folder where app.py exists
+    data_path = os.path.join(base_dir, "..", "data", "Churn_Modelling.csv")
+    return pd.read_csv(data_path)
 
 df = load_data()
 
